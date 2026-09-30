@@ -33,3 +33,7 @@ h5 {
 h4, h5 {
     background-color: rgb(116, 0, 184);
 }
+
+a{
+    text-decoration: none;
+}
