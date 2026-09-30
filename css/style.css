@@ -62,4 +62,13 @@ body {
     font-family: montserrat, sans-serif;
     text-align: center;
 }
-  
+
+.titles {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+}
+.social {
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    color: rgb(6, 26, 62);
+}
