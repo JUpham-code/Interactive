@@ -15,18 +15,23 @@ for now, you can leave these alone */
   font-style: normal;
 }
 
-.Nav {
+.navi {
     text-align: center;
 }
 
-.Nav A {
+.navilink {
     font-family: montserrat, sans-serif;
     text-decoration: none;
     color: rgb(123, 123, 123);
-    margin-right: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: #000000;
+    border-style: solid;
     padding: 7px;
     background-color: rgb(24, 25, 40);
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 body {
