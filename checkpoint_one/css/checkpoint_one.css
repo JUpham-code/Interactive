@@ -7,6 +7,13 @@ for now, you can leave these alone */
     box-sizing: border-box;
 }
 
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Css is how we add all things style, below there are two simple styles added
 go ahead and play with these, can you get the colors to change? What do you notice?
  */
@@ -27,4 +34,54 @@ h4 {
 
 p {
     text-align: justify;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 40%;
+}
+
+.subnav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.subnav2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: montserrat, sans-serif;
+    font-size: 120%;
+    padding: 2%;
+    border-style: solid;
+    border-radius: 20%;
+    text-decoration: none;
+    color: #8e8e97;
+    background-color: rgb(31, 9, 91);
+    margin-bottom: 4%;
+    margin-left: 10%;
+    margin-right: 30%;
+    border-color: #000000;
+}
+
+img {
+    width: 80%;
+}
+
+p, h2, h4{
+    font-family: montserrat, sans-serif;
 }

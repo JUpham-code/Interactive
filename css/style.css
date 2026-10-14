@@ -17,9 +17,18 @@ for now, you can leave these alone */
 
 .navi {
     text-align: center;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .navilink {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
     font-family: montserrat, sans-serif;
     text-decoration: none;
     color: rgb(123, 123, 123);
@@ -27,11 +36,12 @@ for now, you can leave these alone */
     border-width: 3px;
     border-color: #000000;
     border-style: solid;
-    padding: 7px;
+    padding: 1%;
     background-color: rgb(24, 25, 40);
-    display: inline;
-    font-size: 16px;
+    font-size: 120%;
     font-weight: bold;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
 }
 
 body {
@@ -43,9 +53,39 @@ body {
 
 }
 
+.hello {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0% 5% 0% 5%;
+}
+
+.hi {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
 .me {
-    margin-left: 40%;
-    width: 21%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.bio {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
 }
 
 .entry {
@@ -66,6 +106,7 @@ body {
     font-weight: bold;
     font-family: montserrat, sans-serif;
     text-align: center;
+    font-size: 130%;
 }
 
 .titles {
@@ -76,4 +117,14 @@ body {
     font-family: montserrat, sans-serif;
     text-align: center;
     color: rgb(6, 26, 62);
+}
+
+h1 {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    margin-bottom: .5%;
+}
+
+p, h2, h3, h4{
+    font-family: montserrat, sans-serif;
 }

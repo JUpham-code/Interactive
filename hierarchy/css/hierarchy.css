@@ -17,3 +17,18 @@ body {
     background-color: #F2F0D8;
 }
 
+.tomato {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+.potato {
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
