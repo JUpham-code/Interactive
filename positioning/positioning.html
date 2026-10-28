@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>positioning elements</title>
+    <link rel="stylesheet" href="https://use.typekit.net/azk2aca.css">
+    <link rel="stylesheet" href="css/positioning.css">
+</head>
+<body>
+
+  <header>
+  	<h1>positioning elements</h1>
+    <a class="potato" href="../checkpoint_one/checkpoint_one.html">Back</a>
+  </header>
+  <section>
+    <h3>Static</h3><p>default, as-is behavior</p>
+    <h3>Relative</h3><p>this positions a child relative to its parent. by giving an element a relative position, we can place it outside the normal flow of where it would be- but it still impacts other elements</p>
+    <h3>Absolute</h3><p>this takes the element out of the line up and no longer impacts elements around it, BUT you have to apply position:relative to a parent container
+      </p>
+    <h3>Fixed</h3><p>positioned in relation to the browser window, it just stays put!</p>
+    <h3>***Sticky***</h3><p>this one is a little more advanced, and we won’t get into it yet, but perhaps challenge yourself and your project to see if you can figure it out?</p><br>
+    <h3>Next up: z-index</h3><p>this is how we control layering when we are using positioning. if an element has a position, you can add a z-index, the larger the number the closer to the top.<br>
+    0=bottom 100=top<br>
+    think of z-index like the “bring to front” or “send to back” in design software.</p>
+    <br>
+    <p>for more information <a href="https://docs.google.com/presentation/d/1l5xqA2J6o3fNxPjc018LBTOWBgWTk6ssM02cNlLk4TU/edit?usp=sharing" target="_blank">click here</a></p>
+    <br>
+    <h3>Response</h3>
+    <p>
+      I found that the relative positioning felt the most useful, as it allowed the box to interact with and be modified in relation to, other elements on the page, which made it all feel much more dynamic with a flow that could be altered as necessary. However, I did find the sticky positioning the most interesting, as it was in relation to the screen whilst text was present within the body, but once the writing ceased, it clung to the body, regardless of it's position prior on the screen. I think this could be very useful as a positioning for a footer, allowing the basic links towards things such as socials to be visible, and once scrolled past, the background images could be revealed, showing seemingly hidden pictures or documentation of works, giving the user a feeling of discovery. When it comes to fixed positioning, I think one must be selective with what is chosen, as should too much be adhered to the screen, the site itself would be illegible. Nonetheless, I am planning on using or experimenting with fixed, relative, absolute, and sticky positioning in the sketchbook, as I feel I could apply fixed or sticky the footer, fixed to the nav, and relative to the body with absolute to a scenic background.
+    </p>
+  </section>
+
+	<div class="overlay-wrapper">
+	  <img src="img/knollflower.gif" alt="knoll flower" />
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+	</div>
+
+  <footer>
+    <a href="#">footer nav</a>
+    <h3>fix the footer to the bottom</h3>
+  </footer>
+  
+</body>
+</html>
