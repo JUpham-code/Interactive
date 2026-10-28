@@ -21,14 +21,19 @@ go ahead and play with these, can you get the colors to change? What do you noti
 
 h2 {
     text-align: center;
+    color: white;
 }
 
 h4 {
     text-align: left;
+    padding: 1%;
 }
 
 p {
-    text-align: justify;
+    text-align: center;
+    background-color: rgb(105, 104, 152);
+    padding: 3%;
+
 }
 
 section {
@@ -65,7 +70,7 @@ article {
     border-style: solid;
     border-radius: 20%;
     text-decoration: none;
-    color: #8e8e97;
+    color: white;
     background-color: rgb(31, 9, 91);
     margin-bottom: 4%;
     border-color: #000000;
@@ -77,4 +82,18 @@ img {
 
 p, h2, h4{
     font-family: montserrat, sans-serif;
+}
+
+#one {
+    padding: 2%;
+    background-color: rgb(139, 131, 148);
+}
+
+h3 {
+    color: rgb(60, 9, 126);
+}
+
+#two {
+    padding: 2%;
+    background-color: rgb(113, 105, 135);
 }

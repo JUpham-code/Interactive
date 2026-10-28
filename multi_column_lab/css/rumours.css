@@ -59,6 +59,11 @@ header, footer {
   border-radius: 8px;
   background: #0D0D0D;
   color: #ffffff;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 img {
@@ -104,7 +109,9 @@ li{
   margin-left: 10%;
 }
 
-
+.song {
+  text-decoration: underline;
+}
 
 /* 4. Add display: flex; to flex-container */
 /* 5. Add flex-direction: row; to flex-container; */
