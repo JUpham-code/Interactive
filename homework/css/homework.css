@@ -1,0 +1,165 @@
+/* ==========================================================================
+   body override adjustments for this page
+  ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  #start {
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+}
+
+a {
+  font-size: 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #0000FF;
+  margin: 2.5%;
+  padding: 2.5%;
+  letter-spacing: .15em;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  
+}
+
+a:hover {
+  color: #0000FF;
+  border: 1px solid #0000FF;
+  background-color: white;
+}
+
+#start a:hover {
+  color: #0000FF;
+  border: 1px solid #0000FF;
+  background-color: white;
+}
+
+body {
+  padding: 80px;
+  background-image: linear-gradient(#191970, #333333, #000000);
+  height: 100vh;
+  position: relative;
+}
+
+/* instructions are embedded within this CSS file for the homework assignment */
+
+.circle {
+    background-color: #F6F1D5;
+    position: relative;
+    border-radius: 50%;
+      /* the border-radius property allows you to round corners.In this case, we've rounded all corners 50%,which creates a circle. Experiment with this property.*/
+    width: 40%;
+    height: auto;
+    padding-top: 40%;
+    box-shadow: -10px -5px 50px 15px rgba(246, 241, 213, .5);
+    cursor: crosshair;
+    transition-duration: 2s;
+    /* box shadow can help add detail to elements. the values are: 
+    • offset of x-axis, 
+    • offset of y-axis 
+    • blur radius
+    • spread radius
+    • color
+    you need to include all of these properties in order for the shadow to work, play with the values until you are satisfied with the results.*/
+}
+
+
+/* PART ONE due 3/20 */
+
+/* 1.position the stars wherever you want by using absolute positioning. Let's get into the habit of using % instead of pixels - also, resize them as you see fit*/
+
+/* 2. Add a hover effect for each star using:
+transform: scale()
+transform: skew()
+transform: translate()
+transform: rotate() */
+
+/* 3. Now, if we want to slow those transform properties down we can add a transition-duration to each base or normal styling, go ahead and do this - play with the timing until you are satisfied*/
+
+/* 4. you can add multiple transforms to each star, however, you must make them part of the same property in order for all of them to work. Add a second transform to each star*/
+
+/* 5. add a hover effect for the .circle - make the box-shadow move from one side of the moon to the other and give it a duration of 2 seconds
+hint: adjust the first two value only if they are negative values to begin with, make them positive and see what happens
+*/
+
+/* 5. add more stars to the mix and experiment with placement and hover effects. */
+
+
+
+#starOne {
+  cursor: crosshair;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 15%;
+  transition-duration: 5s;
+}
+
+#starTwo {
+  cursor: crosshair;
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  width: 9%;
+  transition-duration: 10s;
+
+}
+
+#starThree {
+  cursor: crosshair;
+  position: absolute;
+  top: 12%;
+  left: 45%;
+  width: 20%;
+  transition-duration: 10s;
+
+}
+
+#starFour {
+  cursor: crosshair;
+  position: absolute;
+  bottom: 25%;
+  right: 5%;
+  width: 19%;
+  transition-duration: 5s;
+}
+
+#starOne:hover {
+transform: translate(900px, 100px) rotate(900deg) ;
+}
+
+#starTwo:hover {
+transform: skew(30deg, 75deg) translate(-1000px, -100px) rotate(900deg);
+}
+
+#starThree:hover {
+transform: skew(30deg, 45deg) rotate(300deg);
+}
+
+#starFour:hover {
+transform: scale(2) rotate(200deg);
+}
+
+.circle:hover {
+  box-shadow: 10px 5px 10px 150px rgba(246, 241, 213, .5);
+}
+
+.response {
+  position: absolute;
+  bottom: 0%;
+  color: rgb(255, 255, 255);
+  /* background-color: #0000FF; */
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.response:hover {
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+}
