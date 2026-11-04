@@ -43,15 +43,23 @@ for now, you can leave these alone */
     font-weight: bold;
     margin-left: 1.5%;
     margin-right: 1.5%;
+    position: relative;
+    transition-duration: .7s;
+}
+
+.navilink:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: #000000;
+    border-style: solid;
+    transform: scale(1.1);
 }
 
 body {
     padding: 2%;
-    border-style: solid;
-    border-left-width: 50px;
-    border-right-width: 50px;
-    border-color:  rgb(72, 0, 165);
-
+    background-image: radial-gradient(rgb(72, 0, 165), #000000);
 }
 
 .hello {
@@ -130,4 +138,8 @@ p, h1, h2, h3, h4{
     font-family: montserrat, sans-serif;
     color: #ffffff;
     text-align: center;
+}
+
+img, iframe{
+    box-shadow: -5px -5px 30px 10px rgb(72, 0, 165);
 }

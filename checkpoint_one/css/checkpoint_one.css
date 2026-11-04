@@ -75,6 +75,18 @@ article {
     margin-bottom: 3%;
     border-color: #000000;
     border-width: 3px;
+    position: relative;
+    transition-duration: .7s;
+}
+
+.subnav2:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: #000000;
+    border-style: solid;
+    transform: scale(1.1);
 }
 
 img {
