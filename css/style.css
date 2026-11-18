@@ -7,6 +7,10 @@ for now, you can leave these alone */
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+    min-height: 100vh;
+}
 
 .montserrat{
   font-family: "Montserrat", sans-serif;
@@ -32,8 +36,8 @@ for now, you can leave these alone */
     font-family: montserrat, sans-serif;
     text-decoration: none;
     color: #ffffff;
-    border-radius: 15px;
-    border-width: 3px;
+    border-radius: 0.9375em;
+    /* border-width: 3px; */
     border-color: #000000;
     border-style: solid;
     padding: 1%;
@@ -49,8 +53,8 @@ for now, you can leave these alone */
 .navilink:hover {
     background-color: #ffffff;
     color: #000000;
-    border-radius: 15px;
-    border-width: 3px;
+    border-radius: 0.9375em;
+    /* border-width: 3px; */
     border-color: #000000;
     border-style: solid;
     transform: scale(1.1);
@@ -94,6 +98,7 @@ body {
     justify-content: center;
     text-align: center;
     font-style: italic;
+    padding: 5%;
 }
 
 .entry {
@@ -141,4 +146,45 @@ p, h1, h2, h3, h4{
 
 img, iframe{
     box-shadow: -5px -5px 30px 10px rgb(72, 0, 165);
+}
+
+
+/* @media screen and (max-width: 480px) {
+
+  body {
+    font-size: 50%;
+  }
+
+} */
+
+@media screen and (max-width: 1080px) {
+    
+     body {
+        font-size: 95%;
+  }
+
+  .hello {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .hi {
+    width: 50%;
+  }
+
+  .bio {
+    width: 90%;
+    justify-content: center;
+  } 
+
+} 
+
+@media screen and (max-width: 768px) {
+
+body {
+    font-size: 90%;
+}
+
 }

@@ -68,13 +68,13 @@ article {
     font-size: 120%;
     padding: 2%;
     border-style: solid;
-    border-radius: 15px;
+    border-radius: 0.9375em;
     text-decoration: none;
     color: #ffffff;
     background-color: rgb(75, 75, 75);
     margin-bottom: 3%;
     border-color: #000000;
-    border-width: 3px;
+    /* border-width: 3px; */
     position: relative;
     transition-duration: .7s;
 }
@@ -82,8 +82,8 @@ article {
 .subnav2:hover {
     background-color: #ffffff;
     color: #000000;
-    border-radius: 15px;
-    border-width: 3px;
+    border-radius: 0.9375em;
+    /* border-width: 3px; */
     border-color: #000000;
     border-style: solid;
     transform: scale(1.1);
@@ -100,7 +100,7 @@ p, h2, h4{
 #one {
     padding: 2%;
     background-color: rgb(0, 0, 0);
-    border-radius: 50px;
+    border-radius: 3.125em;
 }
 
 h3 {
@@ -114,5 +114,23 @@ h3 {
 #two {
     padding: 2%;
     background-color: rgb(0, 0, 0);
-    border-radius: 50px;
+    border-radius: 3.125em;
+}
+
+@media screen and (max-width: 768px) {
+
+section {
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    width: 70%;
+}
+
+.sketch {
+align-items: center;
+padding: 3%;
+}
+
 }
